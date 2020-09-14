@@ -1,0 +1,451 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #1D2844;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0B3459;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #0B3459 !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 71px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #0B3459;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #295E8D;
+  color: #ffffff;
+}
+
+header {
+  padding: 132px 0 44px;
+  margin-top: -70px;
+  background-image: url("../images/header.png");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+header p {
+  font-size: 24px;
+}
+
+header .btn-get-start {
+  background-color: #E47130;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+header .btn-get-start:hover {
+  background-color: #FD6915;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -40px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 14px;
+  background-color: #ffffff;
+  padding-left: 50px;
+}
+
+.section-stats h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.popular {
+  min-height: 390px;
+  background-color: #121744;
+  margin-top: -49px;
+  margin-bottom: -230px;
+}
+
+.popular .popular-heading {
+  margin-top: 100px;
+}
+
+.popular h2,
+.popular p {
+  color: #ffffff;
+}
+
+.popular h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.popular p {
+  font-size: 18px;
+}
+
+.popular-content .section-popular-travel .card-travel {
+  margin-top: 90px;
+  min-height: 321px;
+  background-color: #dddddd;
+  color: #000000;
+  padding: 20px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.popular-content .section-popular-travel .travel-country {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.popular-content .section-popular-travel .travel-location {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.popular-content .section-popular-travel .travel-button .btn-travel-detail {
+  background-color: #E47130;
+  color: #ffffff;
+}
+
+.popular-content .section-popular-travel .travel-button .btn-travel-detail:hover {
+  background-color: #FD6915;
+  color: #ffffff;
+}
+
+.networks {
+  background-color: #ffffff;
+  margin-top: -210px;
+  padding-top: 320px;
+  padding-bottom: 50px;
+}
+
+.networks h2 {
+  font-family: 'Playfair Display', serif;
+  color: #1D2844;
+  font-weight: bold;
+}
+
+.networks img {
+  max-width: 100%;
+}
+
+.testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F9F9F9));
+  background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%);
+  padding-top: 40px;
+  min-height: 460px;
+}
+
+.testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.testimonial-content {
+  margin-top: -250px;
+  padding-bottom: 50px;
+}
+
+.testimonial-content .testimonial-card {
+  padding: 40px 20px 10px;
+  margin-bottom: 15px;
+}
+
+.testimonial-content .testimonial-card .testimoni-content {
+  min-height: 380px;
+}
+
+.testimonial-content .testimonial-card .testimoni-content h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.testimonial-content .testimonial-card .testimoni-content .testi {
+  font-weight: normal;
+  font-size: 24px;
+  color: #1D2844;
+}
+
+.testimonial-content .testimonial-card .testimoni-content .trip {
+  font-size: 24px;
+  font-weight: normal;
+  color: #1D2844;
+}
+
+.testimonial-content .btn-get-started {
+  background-color: #E47130;
+  color: #ffffff;
+}
+
+.testimonial-content .btn-get-started:hover {
+  background-color: #FD6915;
+  color: #ffffff;
+}
+
+.testimonial-content .btn-help {
+  background-color: #E8E1DD;
+  color: #3F3F3F;
+}
+
+.testimonial-content .btn-help:hover {
+  background-color: #EFE6E1;
+  color: #1D2844;
+}
+
+.content-footer h5 {
+  font-weight: bold;
+}
+
+.content-footer a {
+  color: #000000;
+}
+
+.section-details-header {
+  min-height: 250px;
+  background-color: #F3EFEF;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -160px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #0B3459;
+}
+
+.section-details-content .card-details {
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 24px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B9A5A5;
+}
+
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #1D2844;
+}
+
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #C1B0B0;
+}
+
+.section-details-content .card-details .trip-information .text-blue {
+  color: #0B3459;
+}
+
+.section-details-content .card-details .trip-information .text-orange {
+  color: #FD6915;
+}
+
+.section-details-content .card-details .payment {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 20px;
+  color: #3F3F3F;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .descript {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-images {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #0B3459;
+  color: #FFFFFF;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1B5487;
+  color: #FFFFFF;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
+  margin-top: 25px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  font-size: 18px;
+  color: #C1B0B0;
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-img {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #9A9292;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .members .member-image {
+  height: 40px;
+  width: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -15px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #E47130;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #FD6915;
+  color: #ffffff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1B5487;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+}
+
+.section-success .btn-homepage {
+  background-color: #0B3459;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.section-success .btn-homepage:hover {
+  background-color: #124A7C;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=main.css.map */
